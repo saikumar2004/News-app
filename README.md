@@ -1,3 +1,13 @@
+
+In this Project Api key is Temporary ,if you want to run this project we should create account on [News-api](https://newsapi.org/) then you can get the  Api key ,just copy that key and use that one to access the data from api
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
