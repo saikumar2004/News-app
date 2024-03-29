@@ -1,5 +1,5 @@
 
-In this Project Api key is Temporary ,if you want to run this project we should create account on [News-api](https://newsapi.org/) then you can get the  Api key ,just copy that key and use that one to access the data from api
+In this Project Api key is Temporary ,if you want to run this project we should create account on [News-api](https://newsapi.org/) then you can get the  Api key ,just copy that key and use that one to access the data from api.
 
 
 
