@@ -1,25 +1,57 @@
 /*header css*/
-.header{
-  width:100%;
-  padding:10px 5%;
-  
-  display: flex;
-  justify-content: space-between;
-}
-.header h1{
+
+.header-con h1{
   font-size: 40px;
 }
-.header input{
+.header-con{
+  position:relative;
+  display:flex;
+  flex-direction: row;
+  column-gap: 40px;
+  padding: 5px 40px;
+}
+ 
+input{
+  margin-top: 13px;
   border-radius: 5px;
-  border:1px solid gray;
+  margin-left:160vh;
+border:1px solid gray;
   padding:10px;
-  margin-top: 10px;
+  position: absolute;
   height: 40px;
   text-indent: 12px;
   outline: none;
-  
 }
 
+
+.header-nav{
+  display:flex;
+  margin-top: 20px;
+  flex-direction: row;
+  column-gap: 40px;
+  
+  
+  
+}
+ li{
+ list-style:none;
+ }
+ a{
+  text-decoration: none;
+  font-size: 19px;
+  color: black;
+  font-family: sans-serif;
+  
+ }
+ li:hover {
+  font-style: italic;
+  font-size: 20px;
+ }
+
+.second-sec{
+  background-color:rgb(232, 232, 232);
+  text-align: center;
+}
 
 /*news-article css*/
 .news-articles{
@@ -42,6 +74,17 @@
   border-radius: 5px;
 
 }
+.news p button{
+  background-color: blue;
+  border-radius: 4px;
+  padding: 3px;
+}
+.news p button a{
+  text-decoration: none;
+  color:white;
+  
+}
+
 .news-img{
   width:100%;
   height: 200px;
@@ -57,6 +100,7 @@
 .news-img img{
   max-width:100%;
 }
+
 .source{
   display: flex;
   justify-content: space-between;
