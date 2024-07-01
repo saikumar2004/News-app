@@ -37,7 +37,7 @@ function TopHead(){
                   setCategory("us");
                 }
               }}
-              placeholder="Search The Country"
+              placeholder="Search The Country ISO code"
             />
             </div>
             <div className='second-sec'>

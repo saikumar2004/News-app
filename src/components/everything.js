@@ -41,7 +41,7 @@ function Everything(){
             />
             </div>
             <div className='second-sec'>
-        <h1>you can see here EveryNews update </h1>
+        <h1>you can see here EveryNews updates </h1>
 
        </div>
        
