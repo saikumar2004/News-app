@@ -47,7 +47,8 @@ function TopHead(){
        
         <section className="news-articles">
           {articles && articles.length !== 0 ? (
-            articles.map((article) => <News article={article} key={article.id} {...article} />)
+            // articles.map((article) => <News article={article} key={article.id} {...article} />)
+            articles.map((article,index) => <News article={article} key={article.url || index } {...article} />)
           ) : (
             <h3>No results were found for your search.</h3>
           )}
