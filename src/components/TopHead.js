@@ -13,7 +13,7 @@ function TopHead(){
               .then((news) => {
                   console.log('API Response:', news);
                   
-                  setArticles(news.articles);
+                  setArticles(news.articles || []);
               })
               .catch((err) => {
                   console.log('API Error:', err);
@@ -46,7 +46,7 @@ function TopHead(){
        </div>
        
         <section className="news-articles">
-          {articles && articles.length !== 0 ? (
+          {articles.length >0 ? (
             // articles.map((article) => <News article={article} key={article.id} {...article} />)
             articles.map((article,index) => <News article={article} key={article.url || index } {...article} />)
           ) : (
