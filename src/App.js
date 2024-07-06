@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
     
     <Routes>
-      <Route path="/" element={<Everything/>}/>
+      <Route path="/News-app" element={<Everything/>}/>
       <Route path="/everything" element={<Everything/>} />
       <Route path="/topheadlines" element={<TopHead/>}/>
       <Route path="/source" element={<Source/>}/>
