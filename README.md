@@ -7,7 +7,7 @@ In this Project Api key is Temporary ,if you want to run this project we should 
 
 
 
-
+Development was not working because Api does not have access for personal development.it is free for till local host only .if you want to deploy this project, we need to buy the plan for API use
 
 
 
