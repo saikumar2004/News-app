@@ -1,3 +1,5 @@
+Deployment was not working because Api does not have access for personal development.it is free for till local host only .if you want to deploy this project, we need to buy the plan for API use
+
 ![Screenshot 2024-07-11 155408](https://github.com/saikumar2004/News-app/assets/105036029/aaa8ab75-3261-4f61-806c-d3b1cef01ace)
 ![Screenshot 2024-07-11 155437](https://github.com/saikumar2004/News-app/assets/105036029/89f1c6e7-7258-495c-8cd9-63148d23e53a)
 
@@ -7,7 +9,6 @@ In this Project Api key is Temporary ,if you want to run this project we should 
 
 
 
-Development was not working because Api does not have access for personal development.it is free for till local host only .if you want to deploy this project, we need to buy the plan for API use
 
 
 
